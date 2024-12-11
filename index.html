@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>peliculas</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" async></script>
+</head>
+<body>
+
+<header class="header">
+
+<div class="menu container">
+
+<a href="#" class="logo" >pluto</a>
+<input type="checkbox" id="menu" />
+<label for="menu">
+<img src="fondo/blanco.jpeg" class="menu-icono" alt="menu">
+
+</label>
+<nav class="navbar">
+<ul>
+    <li><a href="#">Inicio</a></li>
+    <li><a href="#">Nosotros</a></li>
+    <li><a href="#">peliculas</a></li>
+    <li><a href="#">Contacto</a></li>
+</ul>
+
+</nav>
+<a href="#" class="btn-1">Login</a>
+
+</div>
+
+<div class="header-content container">
+
+<div class="header-1">
+    <img src="..\foto.png" alt="">
+    <a href="#" class="btn-2">Ver ahora</a>
+</div>
+<div class="header-2">
+    <h1>Las mejores <br> peliculas</h1>
+    <img src="..\TRIANGULO.png" alt="">
+</div>
+</div>
+</header>
+
+<!--carrito de compras-->
+<div class="Carrito">
+    <div class="header-carrito">
+        <h2 Tu Carrito></h2>
+    </div>
+    <div class="Carrito-items">
+        <div class="Carrito-item">
+            <img src="Leon.jpeg" alt="" width="80px">
+            <div class="Carrito-item-detalles">
+            <span class="Carrito-item-titulo">Leon</span>
+            <div class="selector-cantidad">
+                <i class="fa-solid fa-minus restar-cantidad"></i>
+                <input type="text" value="1" class="Carrito-item-cantidad" disabled>
+                <i class="fa-solid fa-plus sumar-cantidad"></i>
+            </div>
+        <span class="Carrito-item-precio">$41.990</span>
+            </div>
+            <i class="fa-solid fa-trash"></i>
+
+            <div class="Carrito-item">
+                <img src="cartel Ironman.png" alt="" width="80px">
+                <div class="Carrito-item-detalles">
+                <span class="Carrito-item-titulo">Ironman</span>
+                <div class="selector-cantidad">
+                <i class="fa-solid fa-minus restar-cantidad"></i>
+                <input type="text" value="2" class="Carrito-item-cantidad" disabled>
+                <i class="fa-solid fa-plus sumar-cantidad"></i>
+                </div>
+                <span class="carrito-item-precio">$160.893</span>
+                <i class="fa-solid fa-trash"></i>
+                </div>
+                <span class="btn-eliminar">
+                </span>
+                </div>
+            </div>
+
+
+            <div class="Carrito-item">
+                <img src="Jaws.png" alt="" width="80px">
+                <div class="Carrito-item-detalles">
+                <span class="Carrito-item-titulo">Jaws</span>
+                <div class="selector-cantidad">
+                <i class="fa-solid fa-minus restar-cantidad"></i>
+                <input type="text" value="2" class="Carrito-item-cantidad" disabled>
+                <i class="fa-solid fa-plus sumar-cantidad"></i>
+                </div>
+                <span class="carrito-item-precio">$92.900</span>
+                <i class="fa-solid fa-trash"></i>
+                </div>
+                <span class="btn-eliminar">
+                </span>
+                </div>
+            </div>
+
+
+            <div class="Carrito-item">
+                <img src="FIRSTMAN.png" alt="" width="80px">
+                <div class="Carrito-item-detalles">
+                <span class="Carrito-item-titulo">FIRSTMAN</span>
+                <div class="selector-cantidad">
+                <i class="fa-solid fa-minus restar-cantidad"></i>
+                <input type="text" value="2" class="Carrito-item-cantidad" disabled>
+                <i class="fa-solid fa-plus sumar-cantidad"></i>
+                </div>
+                <span class="carrito-item-precio">$9.900</span>
+                <i class="fa-solid fa-trash"></i>
+                </div>
+                <span class="btn-eliminar">
+                </span>
+                </div>
+            </div>
+
+
+            <div class="Carrito-item">
+                <img src="SCREAM.png" alt="" width="80px">
+                <div class="Carrito-item-detalles">
+                <span class="Carrito-item-titulo">Scream</span>
+                <div class="selector-cantidad">
+                <i class="fa-solid fa-minus restar-cantidad"></i>
+                <input type="text" value="2" class="Carrito-item-cantidad" disabled>
+                <i class="fa-solid fa-plus sumar-cantidad"></i>
+                </div>
+                <span class="carrito-item-precio">$49.900</span>
+                <i class="fa-solid fa-trash"></i>
+                </div>
+                <span class="btn-eliminar">
+                </span>
+                </div>
+            </div>
+
+
+            <div class="Carrito-item">
+                <img src="Blade runner.png" alt="" width="80px">
+                <div class="Carrito-item-detalles">
+                <span class="Carrito-item-titulo">Blade runner</span>
+                <div class="selector-cantidad">
+                <i class="fa-solid fa-minus restar-cantidad"></i>
+                <input type="text" value="2" class="Carrito-item-cantidad" disabled>
+                <i class="fa-solid fa-plus sumar-cantidad"></i>
+                </div>
+                <span class="carrito-item-precio">$160.893</span>
+                <i class="fa-solid fa-trash"></i>
+                </div>
+                <span class="btn-eliminar">
+                </span>
+                </div>
+            </div>
+
+
+            <div class="Carrito-item">
+                <img src="ENSAYOCRIMEN .png" alt="" width="80px">
+                <div class="Carrito-item-detalles">
+                <span class="Carrito-item-titulo">Ensayo de un crimen</span>
+                <div class="selector-cantidad">
+                <i class="fa-solid fa-minus restar-cantidad"></i>
+                <input type="text" value="2" class="Carrito-item-cantidad" disabled>
+                <i class="fa-solid fa-plus sumar-cantidad"></i>
+                </div>
+                <span class="carrito-item-precio">$220.000</span>
+                <i class="fa-solid fa-trash"></i>
+                </div>
+                <span class="btn-eliminar">
+                </span>
+                </div>
+            </div>
+
+
+            <div class="Carrito-item">
+                <img src="CaballeroOscuroJoker.png" alt="" width="80px">
+                <div class="Carrito-item-detalles">
+                <span class="Carrito-item-titulo">El caballero Obscuro</span>
+                <div class="selector-cantidad">
+                <i class="fa-solid fa-minus restar-cantidad"></i>
+                <input type="text" value="2" class="Carrito-item-cantidad" disabled>
+                <i class="fa-solid fa-plus sumar-cantidad"></i>
+                </div>
+                <span class="carrito-item-precio">$12.545</span>
+                <i class="fa-solid fa-trash"></i>
+                </div>
+                <span class="btn-eliminar">
+                </span>
+                </div>
+            </div>
+
+
+            <div class="Carrito-item">
+                <img src="RAIDERS.png" alt="" width="80px">
+                <div class="Carrito-item-detalles">
+                <span class="Carrito-item-titulo">Raiders</span>
+                <div class="selector-cantidad">
+                <i class="fa-solid fa-minus restar-cantidad"></i>
+                <input type="text" value="2" class="Carrito-item-cantidad" disabled>
+                <i class="fa-solid fa-plus sumar-cantidad"></i>
+                </div>
+                <span class="carrito-item-precio">$157.699</span>
+                <i class="fa-solid fa-trash"></i>
+                </div>
+                <span class="btn-eliminar">
+                </span>
+                </div>
+            </div>
+
+
+            
+            
+
+            <div class="Carrito-item">
+                <img src="Narnia Cartel.png" alt="" width="80px">
+                <div class="Carrito-item-detalles">
+                <span class="Carrito-item-titulo">Narnia</span>
+                <div class="selector-cantidad">
+                <i class="fa-solid fa-minus restar-cantidad"></i>
+                <input type="text" value="2" class="Carrito-item-cantidad" disabled>
+                <i class="fa-solid fa-plus sumar-cantidad"></i>
+                </div>
+                <span class="carrito-item-precio">$151.500</span>
+                <i class="fa-solid fa-trash"></i>
+                </div>
+                <span class="btn-eliminar">
+                </span>
+                </div>
+            </div>
+
+
+
+            <div class="Carrito-item">
+                <img src="amienemigas.png" alt="" width="80px">
+                <div class="Carrito-item-detalles">
+                <span class="Carrito-item-titulo">amienemigas</span>
+                <div class="selector-cantidad">
+                <i class="fa-solid fa-minus restar-cantidad"></i>
+                <input type="text" value="2" class="Carrito-item-cantidad" disabled>
+                <i class="fa-solid fa-plus sumar-cantidad"></i>
+                </div>
+                <span class="carrito-item-precio">$47.405</span>
+                <i class="fa-solid fa-trash"></i>
+                </div>
+                <span class="btn-eliminar">
+                </span>
+                </div>
+            </div>
+
+
+
+            <div class="Carrito-item">
+                <img src="THE EXORCIST img.png" alt="" width="80px">
+                <div class="Carrito-item-detalles">
+                <span class="Carrito-item-titulo">The EXORCIST</span>
+                <div class="selector-cantidad">
+                <i class="fa-solid fa-minus restar-cantidad"></i>
+                <input type="text" value="2" class="Carrito-item-cantidad" disabled>
+                <i class="fa-solid fa-plus sumar-cantidad"></i>
+                </div>
+                <span class="carrito-item-precio">$12.000</span>
+                <i class="fa-solid fa-trash"></i>
+                </div>
+                <span class="btn-eliminar">
+                </span>
+                </div>
+            </div>
+
+
+
+            <div class="Carrito-item">
+                <img src="THE IDES OF MARCH.png" alt="" width="80px">
+                <div class="Carrito-item-detalles">
+                <span class="Carrito-item-titulo">The ides of march</span>
+                <div class="selector-cantidad">
+                <i class="fa-solid fa-minus restar-cantidad"></i>
+                <input type="text" value="2" class="Carrito-item-cantidad" disabled>
+                <i class="fa-solid fa-plus sumar-cantidad"></i>
+                </div>
+                <span class="carrito-item-precio">$80.200</span>
+                <i class="fa-solid fa-trash"></i>
+                </div>
+                <span class="btn-eliminar">
+                </span>
+                </div>
+            </div>
+
+        
+            <div class="Tu carrito">
+                <div class="fila">
+                    <strong>Tu Total</strong>
+                    <span class="carrito-precio-total">
+                        $1.197.825
+
+                    </span>
+                </div>
+            </div>
+            <button class="btn-Pagar">Pagar <i class="i class="fa-solid fa-bag-shopping"></i></button>
+
+        
+
+        </div>
+    <span class="btn-eliminar">
+    </span>
+    </div>
+</div>
+</section>
+
+<section class="movies container">
+
+<h2>peliculas mas vistas</h2>
+<hr>
+
+<div class="box-container-1">
+
+<div class="box-1">
+
+<div class="content">
+<img src="../THEEXORCISTimg.png" alt="">
+<samp class="precio-item">$12.000</samp>
+<button class="boton-item">Agregar al Carrito</button>
+<h3> pelicula hd</h3>
+<p>
+Lorem ipsum dolor sit amet consectetur adipisicing elit.
+</p>
+
+</div>
+<div class="box-container-1">
+
+
+    <div class="box-2">
+    <div class="content">
+    <img src="..\THEIDESOFMARCH.png" alt="">
+    <samp class="precio-item">Us $8.65</samp>
+    <button class="boton-item">Agregar al Carrito</button>
+    <h3> pelicula hd</h3>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </p>  
+    </div>
+</div>
+<div class="box-container-1">
+
+    <div class="box-3">
+    
+    <div class="content">
+    <img src="..\CaballeroOscuroJoker.png" alt="">
+    <samp class="precio-item">$12.545.31</samp>
+    <button class="boton-item">Agregar al Carrito</button>
+    <h3> pelicula hd</h3>
+    <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+</p>
+
+
+    <div class="box-4">
+        <div class="content">
+        <img src="../ENSAYOCRIMEN .png" alt="">
+        <samp class="precio-item">$849E</samp>
+        <button class="boton-item">Agregar al Carrito</button>
+        <h3> pelicula hd</h3>
+        <p>
+       
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>  
+   
+
+
+
+    <div class="box-5">
+        <div class="content">
+        <img src="../RAIDERS.png" alt="">
+        <samp class="precio-item">$157.699</samp>
+        <button class="boton-item">Agregar al Carrito</button>
+        <h3> pelicula hd</h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+
+
+
+
+        <div class="box-6">
+            <div class="content">
+            <img src="Cartel DELIVERANCE .png" alt="">
+            <samp class="precio-item">Us $12.99</samp>
+            <button class="boton-item">Agregar al Carrito</button>
+            <h3> pelicula hd</h3>
+            <p>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>  
+
+
+
+            <div class="box-7">
+                <div class="content">
+                <img src="Leon.jpeg" alt="">
+                <samp class="precio-item">Us $41.99</samp>
+                <button class="precio-item">Agregar al Carrito</button>
+                <h3> pelicula hd</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>  
+
+
+                <div class="box-8">
+                <div class="content">
+                <img src="..\cartel Ironman.png" alt="">
+                <samp class="precio-item">74.900</samp>
+                <button class="boton-item">Agregar al Carrito</butto>
+                <h3> pelicula hd</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p> 
+                
+            
+                <div class="box-9">
+                    <div class="content">
+                    <img src="../Bladerunner.png" alt="">
+                    <samp class="precio-item">$160.893</samp>
+                    <button class="boton-item">Agregar al Carrito</button>
+                    <h3> pelicula hd</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p> 
+
+
+                    <div class="box-10">
+                        <div class="content">
+                        <img src="../MadMax.png" alt="">
+                        <samp class="precio-item">$69.900</samp>
+                        <button class="boton-item">Agregar al Carrito</button>
+                        <h3> pelicula hd</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p> 
+
+
+                        <div class="box-11">
+                        <div class="content">
+                        <img src="../Narnia Cartel.png" alt="">
+                        <samp class="precio-item">$151.500</samp>
+                        <button class="boton-item">Agregar al Carrito</button>
+                        <h3> pelicula hd</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p> 
+                    </div>
+                </div>
+            </section>
+
+
+
+                        <div class="box-12">
+                            <div class="content">
+                            <img src="..\127horas.png" alt="">
+                            <samp class="precio-item">$92.000</samp>
+                            <button class="boton-item">Agregar al Carrito</button>
+                            <h3> pelicula hd</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+
+                        
+                        
+                            <div class="box-13">
+                                <div class="content">
+                                <img src="amienemigas.png" alt="">
+                                <samp class="precio-item">$47.405</samp>
+                                <button class="boton-item">Agregar al Carrito</button>
+                                <h3> pelicula hd</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+
+
+                                <div class="box-14">
+                                    <div class="content">
+                                    <img src="" alt="">
+                                    <h3> pelicula hd</h3>
+                                    <p> 
+                                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                            </div>
+                        </section>
+
+
+
+                                
+                                    <div class="box-15"
+                                    <div class="container">
+                                        <img src="Jaws.png" alt="">
+                                        <samp class="precio-item">$92.900</samp>
+                                        <button class="boton-item">Agregar al Carrito</button>
+                                        <h3> pelicula hd</h3>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+
+                                    </div>    
+                                </div>
+                            </section>
+
+
+
+                                    
+                                        <div class="box-16">
+                                            <div class="item">
+                                            <img src="..\FIRSTMAN.png" alt="">
+                                            <samp class="precio-item">$9.900</samp>
+                                            <button class="boton-item">Agregar al Carrito</button>
+                                            <h3> pelicula hd</h3>
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </section>
+
+                                
+                                        <div class="box-17">
+                                                <img src="..\SCREAM.png" alt="" class="img-item">
+                                                <samp class="precio-item">49900.00</samp>
+                                                <button class="boton-item">Agregar al Carrito</button>
+                                                <h3> pelicula hd</h3>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </section>
+    
+                
+
+</div>
+</div>
+
+<div class="loan-more" id="load-more-1"> cargar mas</div>
+
+</section>
+
+<footer class="footer container">
+
+    <h3>Cine pluto</h3>
+
+    <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Nosotros</a></li>
+        <li><a href="#">peliculas</a></li>
+        <li><a href="#">Contacto</a></li>
+
+    </ul>
+
+</footer>
+
+
+
+
+<script src="script.js"></script>
+ <footer class="pie pagina bg-success tex-white">
+
+ </footer>
+ <script src="./ejercio1.js"></script>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
